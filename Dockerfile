@@ -20,6 +20,4 @@ ENV SOCKS5_PORT=1081
 
 EXPOSE 8787 1081
 
-VOLUME ["/data"]
-
 CMD ["python", "main.py"]
